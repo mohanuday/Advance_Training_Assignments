@@ -1,0 +1,27 @@
+package Medicines_3_2;
+
+public class Medicine {
+	
+	public void displayLabel(){
+
+	System.out.println("Company : Globex Pharma");System.out.println("Address : Bangalore");
+
+	}}
+
+	class Tablet extends Medicine{
+
+	public void displayLabel(){
+
+	System.out.println("store in a cool dry place");}
+
+	}
+
+	class Syrup extends Medicine{
+
+	public void displayLabel(){
+
+	System.out.println("Consumption as directed by thephysician");
+
+	}}
+
+
